@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Help.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout>
+            <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="73"/>
+            </Grid.RowDefinitions>
+
+
+            <BoxView Color="#FFB800"
+              Grid.Row="0" />
+            <Image
+               Source="help.png"
+               HeightRequest="25"
+               HorizontalOptions="Center" />
+
+            <Image
+               Source="back_arrow.png"
+               HeightRequest="25"
+               HorizontalOptions="Start" 
+               Margin="20, 0, 0, 0" />
+            </Grid>
+
+        <StackLayout Orientation="Horizontal">
+            <Image
+               Source="search.png"
+               HeightRequest="30"
+               HorizontalOptions="Start"
+               Margin="10, 20, 0 , 0" />
+                <Label
+               Text="Search help"
+               TextColor="Black"
+               HorizontalOptions="Start"
+               FontSize="15"
+               Margin="10, 25, 345, 0"/>
+            </StackLayout>
+
+        <StackLayout Orientation="Horizontal">
+
+            <Image
+               Source="ph.png"
+               HeightRequest="30"
+               HorizontalOptions="Start"
+               Margin="10, 20, 0 , 0" />
+            <Label
+               Text="How to use Promee"
+               TextColor="Black"
+               HorizontalOptions="Center"
+               FontSize="15"
+               Margin="10, 25, 125, 0"/>
+
+            </StackLayout>
+
+        <StackLayout Orientation="Horizontal">
+            <Image
+               Source="ph.png"
+               HeightRequest="30"
+               HorizontalOptions="Start"
+               Margin="10, 20, 0 , 0" />    
+            <Label
+               Text="Connect with people"
+               TextColor="Black"
+               HorizontalOptions="Start"
+               FontSize="15"
+               Margin="10, 25, 0, 0"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+            <Image
+               Source="fback.png"
+               HeightRequest="30"
+               HorizontalOptions="Start"
+               Margin="10, 20, 0 , 0" />
+            
+            <Label
+               Text="Send feedback"
+               TextColor="Black"
+               HorizontalOptions="Center"
+               FontSize="15"
+               Margin="10, 25, 150, 0"/>
+            </StackLayout>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
